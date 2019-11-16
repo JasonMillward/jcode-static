@@ -1,3 +1,6 @@
+require('typeface-open-sans');
+require('typeface-merriweather');
+
 /* eslint-disable */
 /**
  * Trust All Scripts

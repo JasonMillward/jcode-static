@@ -30,7 +30,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         <Helmet>
             <html lang={site.lang} />
             <style type="text/css">{`${site.codeinjection_styles}`}</style>
-            <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Open+Sans:400,600,700&display=swap" rel="stylesheet"/>
             <body className={bodyClass} />
         </Helmet>
 
