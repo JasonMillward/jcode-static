@@ -49,13 +49,13 @@ const PostCard = ({ post, idx }) => {
               </section>
             </Link>
             <footer className="post-card-meta">
-              <ul className="author-list">
+              <div className="author-list">
                 { tags.map( (tag) =>
                   <svg>
                     <use href={ `/icons/${tag.name.replace("#", "")}.svg#icon` }/>
                   </svg>
                 ) }
-              </ul>
+              </div>
               <span className="reading-time">{readingTime}</span>
             </footer>
           </div>
