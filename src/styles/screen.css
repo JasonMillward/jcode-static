@@ -2545,11 +2545,9 @@ li.fancy-tag.tag-android:before {
 
 
 /* Over rides */
-
-
-.page-template .nav li a, .post-template .nav li a {
-    color: #000;
-}
+/*.page-template .nav li a, .post-template .nav li a {*/
+/*    color: #000;*/
+/*}*/
 
 
 .commento-root .commento-button {
