@@ -26,7 +26,7 @@ const PostCard = ({ post, idx }) => {
     const readingTime = readingTimeHelper(post)
 
     const tags = post.tags.filter(function(tag) {
-      return tag.visibility== "internal"
+      return tag.visibility == "internal"
     })
 
     return (
@@ -34,6 +34,7 @@ const PostCard = ({ post, idx }) => {
           <Link to={url} className="post-card-image-link">
             <img className="post-card-image lazy lazyload blur-up"
                  loading="lazy"
+                 alt={post.title}
                  src={ cloudinary( post.feature_image, 100, "w_50,e_blur:700") }
                  data-src={ cloudinary( post.feature_image, postImageSize(idx) ) }
             />
