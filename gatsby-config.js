@@ -185,5 +185,14 @@ module.exports = {
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
+        {
+            resolve: 'gatsby-plugin-fathom',
+            options: {
+                // Fathom server URL. Defaults to `cdn.usefathom.com`
+                trackingUrl: 'stats.jcode.me',
+                // Unique site id
+                siteId: 'BQTMQ'
+            }
+        }
     ],
 }
