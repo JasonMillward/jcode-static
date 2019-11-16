@@ -25,18 +25,17 @@ const Page = ({ data, location }) => {
             <Helmet>
                 <style type="text/css">{`${page.codeinjection_styles}`}</style>
             </Helmet>
-            <Layout>
-                <div className="container">
-                    <article className="content">
-                        <h1 className="content-title">{page.title}</h1>
-
-                        {/* The main page content */}
-                        <section
-                            className="content-body load-external-scripts"
-                            dangerouslySetInnerHTML={{ __html: cloudinary( page.html ) }}
-                        />
-                    </article>
-                </div>
+            <Layout bodyClass={"post-template site-main"}>
+              <article className="post-full post page no-image">
+                <header className="post-full-header">
+                  <h1 className="post-full-title">{page.title}</h1>
+                </header>
+                <section className="post-full-content">
+                  <div className="post-content load-external-scripts"
+                       dangerouslySetInnerHTML={{ __html: cloudinary( page.html ) }}>
+                  </div>
+                </section>
+              </article>
             </Layout>
         </>
     )
