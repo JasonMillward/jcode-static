@@ -1,0 +1,24 @@
+[build]
+  command = "gatsby build"
+  publish = "public/"
+
+[template]
+  incoming-hooks = ["Ghost"]
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[[headers]]
+  # Define which paths this specific [[headers]] block will cover.
+  for = "/*"
+
+  [headers.values]
+    X-Clacks-Overhead         = "GNU Terry Pratchett"
+    X-UA-Compatible           = "IE=edge"
+    X-Frame-Options           = "SAMEORIGIN"
+    X-XSS-Protection          = "1; mode=block"
+    X-Content-Type-Options    = "nosniff"
+
+    Content-Security-Policy   = "script-src 'self' 'unsafe-inline' https://gist.github.com https://apis.google.com https://code.jquery.comhttps://www.googletagmanager.com https://www.google-analytics.com https://commento.jcode.me https://stats.jcode.me https://ajax.cloudflare.com; base-uri 'self';"
