@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl": "https://ghost.jcode.me",
+    "contentApiKey": "2f10acd3324889700bc350355a"
+  },
+  "production": {
+    "apiUrl": "https://ghost.jcode.me",
+    "contentApiKey": "2f10acd3324889700bc350355a"
+  }
+}
