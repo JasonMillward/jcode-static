@@ -92,3 +92,30 @@
 .site-foot-nav-right a:last-child {
     padding-right: 0;
 }
+
+.comment-section {
+    border-top: 1px solid #e5eff5;
+    padding: 40px ;
+
+}
+@media (max-width:768px) {
+    .comment-section {
+        grid-template-columns:1fr
+    }
+}
+.comment-section .commento-card {
+    background-color:#fff;
+    border:0!important;
+    border-radius:3px;
+    padding:30px!important
+}
+.comment-section .commento-card .commento-card {
+    border-radius:0!important;
+    border-left:2px solid #e5eff5!important
+}
+.comment-section .commento-footer {
+    display:none
+}
+.comment-section .commento-submit-button {
+    background-color:#42566a!important
+}
