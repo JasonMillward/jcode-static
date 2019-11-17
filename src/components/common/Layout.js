@@ -30,7 +30,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
         <Helmet>
             <html lang={site.lang} />
             <style type="text/css">{`${site.codeinjection_styles}`}</style>
-            <script src="https://commento.jcode.me/js/commento.js"></script>
+            { showComments ? <script src="https://commento.jcode.me/js/commento.js"></script> : null }
             <body className={bodyClass} />
         </Helmet>
 
