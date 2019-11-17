@@ -35,7 +35,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
         </Helmet>
 
         <div className="viewport">
-
             <div className="viewport-top">
                 {/* The main header section on top of the screen */}
                 <header className="site-header outer responsive-header-img" style={{ ...site.cover_image && { backgroundImage: `url(${ cloudinary( site.cover_image ) })` } }}>
@@ -48,7 +47,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                             </div> :
                             null}
 
-
                         <nav className="site-nav">
                             <div className="site-nav-left">
                                 <ul className="nav" role="menu">
@@ -58,7 +56,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                                       href="/about/">About</a></li>
                                 </ul>
                             </div>
-
                             <div className="site-nav-right">
                                 <a className="social-link social-link-tw"
                                    href="https://www.linkedin.com/in/millwardjason/">
@@ -96,7 +93,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                                     </svg>
                                 </a>
                             </div>
-
                         </nav>
                     </div>
                 </header>
@@ -113,8 +109,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                     <div className="inner">
                         <div id="commento"></div>
                     </div>
-                </div>
-                    :
+                </div> :
                     null }
             </div>
 
@@ -130,7 +125,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                         </div>
                     </div>
                 </footer>
-
             </div>
         </div>
 
