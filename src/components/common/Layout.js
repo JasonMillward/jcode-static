@@ -20,7 +20,7 @@ import '../../styles/app.css'
 * styles, and meta data for each page.
 *
 */
-const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
+const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
     const site = data.allGhostSettings.edges[0].node
     const twitterUrl = site.twitter ? `https://twitter.com/${site.twitter.replace(/^@/, ``)}` : null
     const facebookUrl = site.facebook ? `https://www.facebook.com/${site.facebook.replace(/^\//, ``)}` : null
@@ -30,6 +30,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
         <Helmet>
             <html lang={site.lang} />
             <style type="text/css">{`${site.codeinjection_styles}`}</style>
+            <script src="https://commento.jcode.me/js/commento.js"></script>
             <body className={bodyClass} />
         </Helmet>
 
@@ -107,6 +108,14 @@ const DefaultLayout = ({ data, children, bodyClass, isHome }) => {
                     </div>
                 </main>
 
+                { showComments ?
+                <div className={"comment-section"}>
+                    <div className="inner">
+                        <div id="commento"></div>
+                    </div>
+                </div>
+                    :
+                    null }
             </div>
 
             <div className="viewport-bottom">
