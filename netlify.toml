@@ -21,11 +21,11 @@
     X-Content-Type-Options    = "nosniff"
 
 [[headers]]
-  for = "*.js" # js files should be set this way
+  for = "*.js"
   [headers.values]
     Cache-Control = "public, max-age=604800"
 
 [[headers]]
-  for = "*.css" # css files too
+  for = "*.css"
   [headers.values]
     Cache-Control = "public, max-age=604800"
