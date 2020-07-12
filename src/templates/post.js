@@ -9,8 +9,6 @@ import { Layout } from '../components/common'
 import { MetaData } from '../components/common/meta'
 import {cloudinary} from "../utils/helper"
 
-import 'lazysizes'
-
 import "prismjs/components/prism-python"
 import "prismjs/components/prism-markup-templating"
 import "prismjs/components/prism-markup"
