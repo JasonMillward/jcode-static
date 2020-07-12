@@ -5,7 +5,6 @@ import { graphql } from 'gatsby'
 import { Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
-import 'lazysizes'
 /**
 * Main index page (home page)
 *
