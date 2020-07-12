@@ -32,19 +32,15 @@ function generateIcons(icons, srcIcon) {
   });
 }
 
-exports.onPostBuild =
-/*#__PURE__*/
-function () {
-  var _ref2 = (0, _asyncToGenerator2.default)(
-  /*#__PURE__*/
-  _regenerator.default.mark(function _callee(_ref, pluginOptions) {
+exports.onPostBuild = /*#__PURE__*/function () {
+  var _ref = (0, _asyncToGenerator2.default)( /*#__PURE__*/_regenerator.default.mark(function _callee(_ref2, pluginOptions) {
     var graphql, icon, manifest, _ref3, data, siteTitle, iconPath;
 
     return _regenerator.default.wrap(function _callee$(_context) {
       while (1) {
         switch (_context.prev = _context.next) {
           case 0:
-            graphql = _ref.graphql;
+            graphql = _ref2.graphql;
             icon = pluginOptions.icon, manifest = (0, _objectWithoutPropertiesLoose2.default)(pluginOptions, ["icon"]);
             _context.next = 4;
             return graphql(pluginOptions.query);
@@ -99,6 +95,6 @@ function () {
   }));
 
   return function (_x, _x2) {
-    return _ref2.apply(this, arguments);
+    return _ref.apply(this, arguments);
   };
 }();
