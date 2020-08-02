@@ -5,6 +5,8 @@ import { graphql } from 'gatsby'
 import { Layout, PostCard, Pagination } from '../components/common'
 import { MetaData } from '../components/common/meta'
 
+import 'lazysizes'
+
 /**
 * Main index page (home page)
 *
@@ -20,13 +22,11 @@ const Index = ({ data, location, pageContext }) => {
         <>
             <MetaData location={location} />
 
-            <Layout isHome={true} bodyClass={"home-template"}>
-                <div className={"site-wrapper"}>
+            <Layout isHome={true} bodyClass={`home-template`}>
+                <div className={`site-wrapper`}>
                     <div className="inner">
                         <section className="post-feed">
-                            {posts.map( (node, index) => {
-                              return  <PostCard key={node.node.id} idx={index} post={node.node} />
-                            })}
+                            {posts.map((node, index) => <PostCard key={node.node.id} idx={index} post={node.node} />)}
                         </section>
                         <Pagination pageContext={pageContext} />
                     </div>
