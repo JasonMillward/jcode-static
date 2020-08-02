@@ -57,6 +57,7 @@
     "gatsby-source-filesystem": "2.3.18",
     "gatsby-source-ghost": "4.0.5",
     "gatsby-transformer-sharp": "2.5.10",
+    "lazysizes": "^5.2.2",
     "lodash": "4.17.15",
     "moment": "^2.24.0",
     "prismjs": "^1.17.1",
