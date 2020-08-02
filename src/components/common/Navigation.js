@@ -16,9 +16,9 @@ const Navigation = ({ data, navClass }) => (
     <>
         {data.map((navItem, i) => {
             if (navItem.url.match(/^\s?http(s?)/gi)) {
-                return  <li className={navClass} role="menuitem">
-                          <a href={navItem.url} key={i} target="_blank" rel="noopener noreferrer">{navItem.label}</a>
-                        </li>
+                return <li className={navClass} role="menuitem">
+                    <a href={navItem.url} key={i} target="_blank" rel="noopener noreferrer">{navItem.label}</a>
+                </li>
             } else {
                 return <Link className={navClass} to={navItem.url} key={i}>{navItem.label}</Link>
             }
