@@ -127,6 +127,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                         </div>
                     </footer>
                 </div>
+                <script data-goatcounter="https://jcode.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
             </div>
 
         </>
