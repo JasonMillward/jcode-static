@@ -60,7 +60,7 @@
     "lazysizes": "^5.2.2",
     "lodash": "4.17.15",
     "moment": "^2.24.0",
-    "prismjs": "^1.17.1",
+    "prismjs": "^1.21.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0",
