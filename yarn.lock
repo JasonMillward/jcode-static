@@ -5472,6 +5472,13 @@ gatsby-plugin-force-trailing-slashes@1.0.4:
   dependencies:
     "@babel/runtime" "7.0.0-beta.51"
 
+gatsby-plugin-goatcounter@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-goatcounter/-/gatsby-plugin-goatcounter-0.4.0.tgz#25862e3210edb9c41f87684f9b2b2d148c5782d6"
+  integrity sha512-axcRQYjl6MkcpJZs17ugmGBgXaH8TOs7Aeqx/s+k8vQrq9gnKSaJaWFoXnfuG9W8KWlWQk5kbUQgr6P6bGDpcQ==
+  dependencies:
+    minimatch "3.0.4"
+
 gatsby-plugin-manifest@2.4.17:
   version "2.4.17"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.4.17.tgz#22b7dce25edf03338e8954ad847cd94adeaec31a"
@@ -8049,7 +8056,7 @@ minimatch@3.0.3:
   dependencies:
     brace-expansion "^1.0.0"
 
-minimatch@^3.0.3, minimatch@^3.0.4:
+minimatch@3.0.4, minimatch@^3.0.3, minimatch@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
   dependencies:
