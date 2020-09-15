@@ -186,15 +186,6 @@ module.exports = {
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
         {
-            resolve: 'gatsby-plugin-fathom',
-            options: {
-                // Fathom server URL. Defaults to `cdn.usefathom.com`
-                trackingUrl: 'stats.jcode.me',
-                // Unique site id
-                siteId: 'BQTMQ'
-            }
-        },
-        {
           resolve: `gatsby-plugin-goatcounter`,
           options: {
             // Either `code` or `selfHostUrl` is required.
