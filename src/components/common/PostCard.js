@@ -29,8 +29,10 @@ const PostCard = ({ post, idx }) => {
         return tag.visibility === `internal`
     })
 
+    const featured = post.featured ? 'featured' : ''
+
     return (
-        <article className={postClass(idx)}>
+        <article className={`postClass(idx) featured`}>
             <Link to={url} className="post-card-image-link">
                 <img className="post-card-image lazy lazyload blur-up"
                     loading="lazy"
