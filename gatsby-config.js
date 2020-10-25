@@ -4,29 +4,30 @@ const config = require(`./src/utils/siteConfig`)
 const generateRSSFeed = require(`./src/utils/rss/generate-feed`)
 
 let ghostConfig
+let apiUrl
+let contentApiKey
 
-try {
+if (process.env.NODE_ENV === `production`) {
+    apiUrl = process.env.GHOST_API_URL;
+    contentApiKey =  process.env.GHOST_CONTENT_API_KEY;    
+} else {
     ghostConfig = require(`./.ghost`)
-} catch (e) {
-    ghostConfig = {
-        production: {
-            apiUrl: process.env.GHOST_API_URL,
-            contentApiKey: process.env.GHOST_CONTENT_API_KEY,
-        },
-    }
-} finally {
-    const { apiUrl, contentApiKey } = process.env.NODE_ENV === `development` ? ghostConfig.development : ghostConfig.production
 
-    if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
-        throw new Error(`GHOST_API_URL and GHOST_CONTENT_API_KEY are required to build. Check the README.`) // eslint-disable-line
-    }
+    apiUrl = ghostConfig.development.apiUrl;
+    contentApiKey = ghostConfig.development.contentApiKey;
 }
+
+
+if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
+    throw new Error(`GHOST_API_URL and GHOST_CONTENT_API_KEY are required to build.`) // eslint-disable-line
+}
+
 
 /**
 * This is the place where you can tell Gatsby which plugins to use
 * and set them up the way you want.
 *
-* Further info 👉🏼 https://www.gatsbyjs.org/docs/gatsby-config/
+* Further info https://www.gatsbyjs.org/docs/gatsby-config/
 *
 */
 module.exports = {
