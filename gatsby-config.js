@@ -15,7 +15,7 @@ try {
         },
     }
 } finally {
-    const { apiUrl, contentApiKey } = process.env.NODE_ENV === `development` ? ghostConfig.development : ghostConfig.production
+    const { apiUrl, contentApiKey } = process.env.GHOST_ENV === `development` ? ghostConfig.development : ghostConfig.production
 
     if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
         throw new Error(`GHOST_API_URL and GHOST_CONTENT_API_KEY are required to build. Check the README.`) // eslint-disable-line
@@ -58,7 +58,7 @@ module.exports = {
         {
             resolve: `gatsby-source-ghost`,
             options:
-                process.env.NODE_ENV === `development`
+                process.env.GHOST_ENV === `development`
                     ? ghostConfig.development
                     : ghostConfig.production,
         },
