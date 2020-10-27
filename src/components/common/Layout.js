@@ -26,6 +26,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
             <Helmet>
                 <html lang={site.lang} />
                 <style type="text/css">{`${site.codeinjection_styles}`}</style>
+                <script async defer data-website-id="9bc8c034-3fce-4653-b88e-ea795bf82e13" src="https://umami-jcode.herokuapp.com/umami.js"></script>
                 { showComments ? <script defer async src="https://commento.jcode.me/js/commento.js"></script> : null }
                 <body className={bodyClass} />
             </Helmet>
