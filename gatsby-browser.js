@@ -1,6 +1,6 @@
 /* eslint-disable */
-require('typeface-open-sans');
-require('typeface-merriweather');
+require('fontsource-open-sans/latin.css');
+require('fontsource-merriweather/latin.css');
 
 /**
  * Trust All Scripts
