@@ -5,9 +5,6 @@ ci:
       - https://jcode.me/
 #  assert:
 #    preset: lighthouse:recommended
-  
+
   upload:
     target: lhci
-    githubToken: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-    token: ${{ secrets.LHCI_TOKEN }}
-    serverBaseUrl: ${{ secrets.LHCI_URL }}
