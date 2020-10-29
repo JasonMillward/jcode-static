@@ -29,7 +29,7 @@ const PostCard = ({ post, idx }) => {
         return tag.visibility === `internal`
     })
 
-    const featured = post.featured ? 'featured' : ''
+    const featured = post.featured ? `featured` : ``
 
     return (
         <article className={`${postClass(idx)} ${featured}`}>

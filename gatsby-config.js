@@ -179,31 +179,11 @@ module.exports = {
                 addUncaughtPages: true,
             },
         },
-        'gatsby-plugin-sharp',
-        'gatsby-transformer-sharp',
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
-        // {
-        //   resolve: `gatsby-plugin-goatcounter`,
-        //   options: {
-        //     // Either `code` or `selfHostUrl` is required.
-        //     // REQUIRED IF USING HOSTED GOATCOUNTER! https://[my_code].goatcounter.com
-        //     code: 'jcode',
- 
-        //     // REQUIRED IF USING SELFHOSTED GOATCOUNTER!
-        //     // selfHostUrl: `https://example.com`,
-    
-        //     exclude: [],
-        //     pageTransitionDelay: 0,
-        //     head: true,
-        //     pixel: true,
-        //     allowLocal: false,
-        //     localStorageKey: 'skipgc',
-        //     referrer: true,
-        //     urlCleanup: false,
-        //   },
-        // },
     ],
 }
