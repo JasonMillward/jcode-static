@@ -1,10 +1,9 @@
 ci:
   collect:
     numberOfRuns: 5
+    startServerCommand: yarn serve
     url:
-      - https://jcode.me/
-#  assert:
-#    preset: lighthouse:recommended
+      - https://jcode.me
 
   upload:
     target: lhci
