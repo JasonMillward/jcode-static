@@ -7,9 +7,15 @@
       "updateTypes": [
         "minor",
         "patch",
-        "lockFileMaintenance"
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
       ],
       "automerge": true
+    },
+    {
+      "updateTypes": ["major"],
+      "labels": ["UPDATE-MAJOR"]
     }
   ],
   "schedule": [
