@@ -9,12 +9,14 @@
         "patch",
         "lockFileMaintenance"
       ],
-      "automerge": true,
-      "schedule": ["after 6pm on sunday"],
-      "lockFileMaintenance": {
-        "enabled": true
-      },
-      "timezone": "Australia/Adelaide"
+      "automerge": true
     }
-  ]
+  ],
+  "schedule": [
+    "after 6pm on sunday"
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "timezone": "Australia/Adelaide"
 }
