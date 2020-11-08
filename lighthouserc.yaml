@@ -5,7 +5,7 @@ ci:
     startServerReadyPattern: "Building development bundle"
     startServerReadyTimeout: 60000
     url:
-      -  http://localhost:8000/
+      -  http://localhost:9000/
 
   upload:
     target: lhci
