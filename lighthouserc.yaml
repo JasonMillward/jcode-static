@@ -3,7 +3,7 @@ ci:
     numberOfRuns: 5
     startServerCommand: yarn serve
     startServerReadyPattern: "Building development bundle"
-    startServerReadyTimeout: 60000
+    startServerReadyTimeout: 1200000
     url:
       -  http://localhost:9000/
 
