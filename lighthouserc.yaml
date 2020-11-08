@@ -2,8 +2,10 @@ ci:
   collect:
     numberOfRuns: 5
     startServerCommand: yarn serve
+    startServerReadyPattern: "You can now view"
+    startServerReadyTimeout: 15000
     url:
-      - https://jcode.me
+      -  http://localhost:8000/
 
   upload:
     target: lhci

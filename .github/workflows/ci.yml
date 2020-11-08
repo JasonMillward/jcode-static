@@ -51,9 +51,6 @@ jobs:
       - run: yarn install --pure-lockfile
         name: Install dependencies
 
-#      - run: yarn lint
-#        name: Run ESLint
-
       - run: yarn build --log-pages
         name: Build
         env:
