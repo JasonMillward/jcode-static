@@ -186,5 +186,6 @@ module.exports = {
         `gatsby-plugin-force-trailing-slashes`,
         `gatsby-plugin-offline`,
         `gatsby-plugin-remove-fingerprints`,
+        `gatsby-plugin-no-javascript`,
     ],
 }
