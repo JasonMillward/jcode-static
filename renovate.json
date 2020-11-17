@@ -11,18 +11,22 @@
         "rollback",
         "bump"
       ],
-      "automerge": true
+      "automerge": true,
+      "schedule": [
+        "before 9am on the first day of the month"
+      ]
     },
     {
-      "updateTypes": ["major"],
-      "labels": ["UPDATE-MAJOR"]
+      "updateTypes": [
+        "major"
+      ],
+      "labels": [
+        "UPDATE-MAJOR"
+      ],
+      "schedule": [
+        "every weekend"
+      ]
     }
   ],
-  "schedule": [
-    "before 9am on the first day of the month"
-  ],
-  "lockFileMaintenance": {
-    "enabled": true
-  },
   "timezone": "Australia/Adelaide"
 }
