@@ -24,7 +24,7 @@
         "UPDATE-MAJOR"
       ],
       "schedule": [
-        "every weekend"
+        "before 9am on the first day of the month"
       ]
     }
   ],
