@@ -34,11 +34,11 @@ const PostCard = ({ post, idx }) => {
     return (
         <article className={`${postClass(idx)} ${featured}`}>
             <Link to={url} className="post-card-image-link">
-                <img className="post-card-image lazy lazyload blur-up"
+                <img className="post-card-image"
                     loading="lazy"
                     alt={post.title}
-                    src={ cloudinary(post.feature_image, 100, `w_50,e_blur:700`) }
-                    data-src={ cloudinary(post.feature_image, postImageSize(idx)) }
+                    // src={ cloudinary(post.feature_image, 100, `w_50,e_blur:700`) }
+                    src={ cloudinary(post.feature_image, postImageSize(idx)) }
                 />
             </Link>
             <div className="post-card-content">
