@@ -19,7 +19,7 @@
     }
   ],
   "schedule": [
-    "after 6pm on the first day of the month"
+    "before 9am on the first day of the month"
   ],
   "lockFileMaintenance": {
     "enabled": true
