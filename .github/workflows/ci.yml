@@ -2,11 +2,10 @@ name: CI
 
 on: [push]
 
-runs-on: ubuntu-latest
-
-
 jobs:
   setup:
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
 
@@ -48,6 +47,7 @@ jobs:
 
 
   install:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -60,6 +60,8 @@ jobs:
         name: Install dependencies
 
   build:
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
@@ -75,7 +77,9 @@ jobs:
           GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
           GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
 
-  lhci:
+  lighthouse:
+    runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v1
