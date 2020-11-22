@@ -1,0 +1,48 @@
+name: master
+
+on:
+  push:
+    branches:
+      master
+
+jobs:
+  - name: netlify
+    uses: jakepartusch/wait-for-netlify-action@v1.2
+    id: waitFor200
+    with:
+      site_name: "jakepartusch"
+      max_timeout: 60
+
+  lighthouse:
+    needs: netlify
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 10
+
+      - run: npm install -g gatsby @lhci/cli@0.5.x
+
+      - run: yarn install --pure-lockfile
+        name: Install dependencies
+
+      - run: yarn build --log-pages
+        name: Build
+        env:
+          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+          NODE_ENV: production
+          ENVIRONMENT: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
+          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
+          GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
+
+      - name: lhci
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
+          LHCI_TOKEN: ${{ secrets.LHCI_TOKEN }}
+          LHCI_SERVER_BASE_URL: ${{ secrets.LHCI_URL }}
+          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
+          GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
+        run: |
+          lhci autorun
