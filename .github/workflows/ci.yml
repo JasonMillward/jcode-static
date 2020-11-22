@@ -47,6 +47,7 @@ jobs:
 
 
   install:
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -60,6 +61,7 @@ jobs:
         name: Install dependencies
 
   build:
+    needs: install
     runs-on: ubuntu-latest
 
     steps:
@@ -78,6 +80,7 @@ jobs:
           GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
 
   lighthouse:
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
