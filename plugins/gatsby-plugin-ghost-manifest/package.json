@@ -9,8 +9,8 @@
         "sharp": "0.26.2"
     },
     "devDependencies": {
-        "@babel/cli": "7.12.1",
-        "@babel/core": "7.12.3",
+        "@babel/cli": "7.12.8",
+        "@babel/core": "7.12.9",
         "babel-preset-gatsby-package": "0.5.3",
         "cross-env": "7.0.2"
     },
