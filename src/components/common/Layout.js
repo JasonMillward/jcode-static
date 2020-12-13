@@ -20,6 +20,23 @@ import '../../styles/app.css'
 */
 const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
     const site = data.allGhostSettings.edges[0].node
+    const [showLoadCommentsButton, setLoadComments] = React.useState(true)
+
+    const loadComments = () => {
+        setLoadComments(false)
+
+        const script = document.createElement(`script`)
+
+        script.src = `/js/comments.js`
+        script.async = true
+        script.defer = true
+
+        document.body.appendChild(script)
+
+        return () => {
+            document.body.removeChild(script)
+        }
+    }
 
     return (
         <>
@@ -31,7 +48,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                     src={`/js/u.js`}
                     data-host-url="https://umami-jcode.herokuapp.com"
                 ></script>
-                { showComments ? <script defer async src="https://commento.jcode.me/js/commento.js"></script> : null }
                 <body className={bodyClass} />
             </Helmet>
 
@@ -113,6 +129,11 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                     { showComments ?
                         <div className={`comment-section`}>
                             <div className="inner">
+                                { showLoadCommentsButton ?
+                                    <div className="show-more-button">
+                                        <a className="button large" href="#" onClick={loadComments}>Load comments</a>
+                                    </div>
+                                    : null }
                                 <div id="commento"></div>
                             </div>
                         </div> :
