@@ -51,7 +51,7 @@ const Post = ({ data, location }) => {
             <Helmet>
                 <style type="text/css">{`${post.codeinjection_styles}`}</style>
             </Helmet>
-            <Layout bodyClass={`post-template site-main`} showComments={true}>
+            <Layout bodyClass={`post-template site-main`} showComments={true} slug={post.slug}>
                 <article className="post-full post">
                     <header className="post-full-header">
                         <section className="post-full-meta">
@@ -90,6 +90,8 @@ Post.propTypes = {
             title: PropTypes.string.isRequired,
             html: PropTypes.string.isRequired,
             feature_image: PropTypes.string,
+            slug: PropTypes.string,
+            published_at: PropTypes.dateTime,
         }).isRequired,
     }).isRequired,
     location: PropTypes.object.isRequired,

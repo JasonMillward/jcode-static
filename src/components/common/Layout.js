@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 
 import { Navigation } from '.'
-
-import { cloudinary } from "../../utils/helper"
+import { Commento } from '.'
+import { cloudinary } from '../../utils/helper'
 
 // Styles
 import '../../styles/app.css'
@@ -18,7 +18,14 @@ import '../../styles/app.css'
 * styles, and meta data for each page.
 *
 */
-const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
+const DefaultLayout = ({
+    data,
+    children,
+    bodyClass,
+    isHome,
+    showComments,
+    slug,
+}) => {
     const site = data.allGhostSettings.edges[0].node
     const [showLoadCommentsButton, setLoadComments] = React.useState(true)
 
@@ -27,7 +34,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
 
         window.commento.main()
     }
-
     return (
         <>
             <Helmet>
@@ -37,10 +43,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                     data-website-id="9bc8c034-3fce-4653-b88e-ea795bf82e13"
                     src={`/js/u.js`}
                     data-host-url="https://umami-jcode.herokuapp.com"
-                ></script>
-                <script async defer
-                    src={`/js/commento.js`}
-                    data-auto-init="false"
                 ></script>
                 <body className={bodyClass} />
             </Helmet>
@@ -130,7 +132,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                                         </a>
                                     </div>
                                     : null }
-                                <div id="commento"></div>
+                                <Commento id={ slug } />
                             </div>
                         </div> :
                         null }
@@ -164,6 +166,7 @@ DefaultLayout.propTypes = {
         allGhostSettings: PropTypes.object.isRequired,
     }).isRequired,
     showComments: PropTypes.bool,
+    slug: PropTypes.string,
 }
 
 const DefaultLayoutSettingsQuery = props => (
