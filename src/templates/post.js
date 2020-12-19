@@ -90,6 +90,8 @@ Post.propTypes = {
             title: PropTypes.string.isRequired,
             html: PropTypes.string.isRequired,
             feature_image: PropTypes.string,
+            slug: PropTypes.string,
+            published_at: PropTypes.dateTime,
         }).isRequired,
     }).isRequired,
     location: PropTypes.object.isRequired,

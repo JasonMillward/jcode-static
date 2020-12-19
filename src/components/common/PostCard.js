@@ -52,7 +52,7 @@ const PostCard = ({ post, idx }) => {
                 </Link>
                 <footer className="post-card-meta">
                     <div className="author-list">
-                        { tags.map(tag => <svg>
+                        { tags.map(tag => <svg key={tag.name}>
                             <use href={ `/icons/${tag.name.replace(`#`, ``)}.svg#icon` }/>
                         </svg>
                         ) }
@@ -81,6 +81,7 @@ PostCard.propTypes = {
             profile_image: PropTypes.string,
         }).isRequired,
     }).isRequired,
+    idx: PropTypes.id,
 }
 
 export default PostCard

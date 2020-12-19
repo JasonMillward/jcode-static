@@ -1,3 +1,5 @@
+// https://itnext.io/adding-commento-to-react-apps-like-gatsby-871824fb57ae
+
 import React, { useEffect } from 'react'
 import PropTypes from 'prop-types'
 
