@@ -44,6 +44,10 @@ const DefaultLayout = ({
                     src={`/js/u.js`}
                     data-host-url="https://umami-jcode.herokuapp.com"
                 ></script>
+                <script async defer
+                    src={`/js/commento.js`}
+                    data-auto-init="false"
+                ></script>
                 <body className={bodyClass} />
             </Helmet>
 
