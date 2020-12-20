@@ -4,8 +4,8 @@ import Helmet from 'react-helmet'
 import { Link, StaticQuery, graphql } from 'gatsby'
 
 import { Navigation } from '.'
-
-import { cloudinary } from "../../utils/helper"
+import { Commento } from '.'
+import { cloudinary } from '../../utils/helper'
 
 // Styles
 import '../../styles/app.css'
@@ -18,7 +18,14 @@ import '../../styles/app.css'
 * styles, and meta data for each page.
 *
 */
-const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
+const DefaultLayout = ({
+    data,
+    children,
+    bodyClass,
+    isHome,
+    showComments,
+    slug,
+}) => {
     const site = data.allGhostSettings.edges[0].node
     const [showLoadCommentsButton, setLoadComments] = React.useState(true)
 
@@ -27,7 +34,6 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
 
         window.commento.main()
     }
-
     return (
         <>
             <Helmet>
@@ -130,7 +136,7 @@ const DefaultLayout = ({ data, children, bodyClass, isHome, showComments }) => {
                                         </a>
                                     </div>
                                     : null }
-                                <div id="commento"></div>
+                                <Commento id={ slug } />
                             </div>
                         </div> :
                         null }
@@ -164,6 +170,7 @@ DefaultLayout.propTypes = {
         allGhostSettings: PropTypes.object.isRequired,
     }).isRequired,
     showComments: PropTypes.bool,
+    slug: PropTypes.string,
 }
 
 const DefaultLayoutSettingsQuery = props => (
