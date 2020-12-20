@@ -187,5 +187,6 @@ module.exports = {
         `gatsby-plugin-offline`,
         `gatsby-plugin-remove-fingerprints`,
         `gatsby-plugin-preact`,
+        `gatsby-source-local-git`,
     ],
 }
