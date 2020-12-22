@@ -41,7 +41,7 @@ const DefaultLayout = ({
                 <script async defer
                     data-website-id="9bc8c034-3fce-4653-b88e-ea795bf82e13"
                     src={`/js/u.js`}
-                    data-host-url="https://umami-jcode.herokuapp.com"
+                    data-host-url="https://stats.jcode.me"
                 ></script>
                 <body className={bodyClass} />
             </Helmet>
