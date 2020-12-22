@@ -13,7 +13,7 @@
       ],
       "automerge": true,
       "schedule": [
-        "before 9am on the first day of the month"
+        "after 10am and before 5pm"
       ]
     },
     {
@@ -24,7 +24,7 @@
         "UPDATE-MAJOR"
       ],
       "schedule": [
-        "before 9am on the first day of the month"
+        "every weekend"
       ]
     }
   ],
