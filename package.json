@@ -57,7 +57,6 @@
     "gatsby-plugin-sharp": "2.11.1",
     "gatsby-source-filesystem": "2.8.0",
     "gatsby-source-ghost": "4.2.2",
-    "gatsby-source-local-git": "^1.1.1",
     "gatsby-transformer-sharp": "2.9.0",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",

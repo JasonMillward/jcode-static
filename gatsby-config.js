@@ -30,6 +30,14 @@ try {
 *
 */
 module.exports = {
+    flags: {
+        QUERY_ON_DEMAND: false,
+        LAZY_IMAGES: false,
+        FAST_DEV: false,
+        FAST_REFRESH: false,
+        PRESERVE_WEBPACK_CACHE: true,
+        PRESERVE_FILE_DOWNLOAD_CACHE: true
+    },
     siteMetadata: {
         siteUrl: config.siteUrl,
     },
@@ -187,6 +195,5 @@ module.exports = {
         `gatsby-plugin-offline`,
         `gatsby-plugin-remove-fingerprints`,
         `gatsby-plugin-preact`,
-        `gatsby-source-local-git`,
     ],
 }
