@@ -30,7 +30,9 @@ const DefaultLayout = ({
 
     const loadComments = () => {
         setLoadComments(false)
-
+        try{
+            umami('Loading comments');
+        } catch (e) {}
         window.commento.main()
     }
     return (
