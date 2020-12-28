@@ -39,7 +39,7 @@
     "cheerio": "1.0.0-rc.5",
     "core-js": "^3.6.5",
     "fontsource-merriweather": "^4.0.0",
-    "fontsource-open-sans": "^3.0.9",
+    "fontsource-open-sans": "^4.0.0",
     "gatsby": "2.29.2",
     "gatsby-awesome-pagination": "0.3.6",
     "gatsby-cli": "^2.12.113",

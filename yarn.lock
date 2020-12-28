@@ -6298,10 +6298,10 @@ fontsource-merriweather@^4.0.0:
   resolved "https://registry.yarnpkg.com/fontsource-merriweather/-/fontsource-merriweather-4.0.0.tgz#1d38d6c94ea4d152d49948127ddf7db6d05fbab1"
   integrity sha512-1LnYjXYHZm0GNAMSqRJ84O8MHMT6wNywjt8JY0j0lyuvjPLSMRr7mrt4uqWbOnpPF8GnsKS0bYGY6LAidTfH9w==
 
-fontsource-open-sans@^3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/fontsource-open-sans/-/fontsource-open-sans-3.0.9.tgz#a497140bce061e75ad442a7f69df3bf3d87e527a"
-  integrity sha512-NEgZAgtpvz7iYZ/IlojOOy6hRLaLmxnxzEKYXnq0KU/X8lb9cD7d0XImykhfksK1/JZ6xyKQKjYq4PycHQZK9w==
+fontsource-open-sans@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/fontsource-open-sans/-/fontsource-open-sans-4.0.0.tgz#f5884fe491b86e522e6ce10dbddaebd5d152fa95"
+  integrity sha512-WWiMhDr/rgDPnw1tKjcqPpjRDJDrDnNVLpfscr7wwbpK33q3zcVnkhBOUcaZZlw3y1iRc+pj/ciPzLWExKT3zw==
 
 for-in@^1.0.2:
   version "1.0.2"
