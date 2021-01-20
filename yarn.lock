@@ -1764,12 +1764,12 @@
   resolved "https://registry.yarnpkg.com/@tokenizer/token/-/token-0.1.1.tgz#f0d92c12f87079ddfd1b29f614758b9696bc29e3"
   integrity sha512-XO6INPbZCxdprl+9qa/AAbFFOMzzwqYxpjPgLICrMD6C2FCw6qfJOPcBk6JqqPLSaZ/Qx87qn4rpPmPMwaAK6w==
 
-"@tryghost/content-api@1.4.7":
-  version "1.4.7"
-  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.4.7.tgz#daf9222a0fbe427ff7a27abf98610f49e7d97c83"
-  integrity sha512-DPSnwZreBqxL4333VXAyVIi9hMcn9P+8mYvm1l39XjRWRVjRwfIARQJVDvC/xRQ5WXJSGKc3ytLf2ZJKs8dzFA==
+"@tryghost/content-api@1.4.13":
+  version "1.4.13"
+  resolved "https://registry.yarnpkg.com/@tryghost/content-api/-/content-api-1.4.13.tgz#a93abde7f6ea903ec13aff8ee06a5e6553e3d2e0"
+  integrity sha512-7pJa3t1bDkQL632i5YiOpLHDSDjhc9PF7NtxVM/JDAzOwfGvaxipMU6eGeYKMkHVtrC4uvVAbQI0J5Kt8BjG7w==
   dependencies:
-    axios "0.20.0"
+    axios "0.21.1"
 
 "@tryghost/helpers-gatsby@1.0.42":
   version "1.0.42"
@@ -2697,10 +2697,10 @@ axe-core@^4.0.2:
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.0.2.tgz#c7cf7378378a51fcd272d3c09668002a4990b1cb"
   integrity sha512-arU1h31OGFu+LPrOLGZ7nB45v940NMDMEJeNmbutu57P+UFDVnkZg3e+J1I2HJRZ9hT7gO8J91dn/PMrAiKakA==
 
-axios@0.20.0, axios@^0.20.0:
-  version "0.20.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
-  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+axios@0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
@@ -2718,6 +2718,13 @@ axios@^0.19.0:
   integrity sha512-fjgm5MvRHLhx+osE2xoekY70AhARk3a6hkN+3Io1jc00jtquGvxYlKlsFUhmUET0V5te6CcZI7lcv2Ym61mjHA==
   dependencies:
     follow-redirects "1.5.10"
+
+axios@^0.20.0:
+  version "0.20.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.20.0.tgz#057ba30f04884694993a8cd07fa394cff11c50bd"
+  integrity sha512-ANA4rr2BDcmmAQLOKft2fufrtuvlqR+cXNNinUmvfeSNCOF98PZL+7M/v1zIdGo7OLjEA9J2gXJL+j4zGsl0bA==
+  dependencies:
+    follow-redirects "^1.10.0"
 
 axobject-query@^2.2.0:
   version "2.2.0"
@@ -3596,18 +3603,6 @@ cheerio-select-tmp@^0.1.0:
     domhandler "^4.0.0"
     domutils "^2.4.4"
 
-cheerio@1.0.0-rc.3, cheerio@^1.0.0-rc.3:
-  version "1.0.0-rc.3"
-  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
-  integrity sha512-0td5ijfUPuubwLUu0OBoe98gZj8C/AA+RW3v67GPlGOrvxWjZmBXiBCRU+I8VEiNyJzjth40POfHiz2RB3gImA==
-  dependencies:
-    css-select "~1.2.0"
-    dom-serializer "~0.1.1"
-    entities "~1.1.1"
-    htmlparser2 "^3.9.1"
-    lodash "^4.15.0"
-    parse5 "^3.0.1"
-
 cheerio@1.0.0-rc.5:
   version "1.0.0-rc.5"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.5.tgz#88907e1828674e8f9fee375188b27dadd4f0fa2f"
@@ -3620,6 +3615,18 @@ cheerio@1.0.0-rc.5:
     htmlparser2 "^6.0.0"
     parse5 "^6.0.0"
     parse5-htmlparser2-tree-adapter "^6.0.0"
+
+cheerio@^1.0.0-rc.3:
+  version "1.0.0-rc.3"
+  resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.3.tgz#094636d425b2e9c0f4eb91a46c05630c9a1a8bf6"
+  integrity sha512-0td5ijfUPuubwLUu0OBoe98gZj8C/AA+RW3v67GPlGOrvxWjZmBXiBCRU+I8VEiNyJzjth40POfHiz2RB3gImA==
+  dependencies:
+    css-select "~1.2.0"
+    dom-serializer "~0.1.1"
+    entities "~1.1.1"
+    htmlparser2 "^3.9.1"
+    lodash "^4.15.0"
+    parse5 "^3.0.1"
 
 chokidar@^2.0.4, chokidar@^2.1.8:
   version "2.1.8"
@@ -6954,16 +6961,16 @@ gatsby-source-filesystem@2.9.1:
     valid-url "^1.0.9"
     xstate "^4.14.0"
 
-gatsby-source-ghost@4.2.2:
-  version "4.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-source-ghost/-/gatsby-source-ghost-4.2.2.tgz#a45656a09c21ba7804614b4cc06ec7861daca0ab"
-  integrity sha512-yK+aP97Ea+Gri6xN6bw4JBUEdihnM1GFlio9OSqNCFxAXENccA048xN4R5V6QklIp6gyRyprVn4HwpxoKbFxUA==
+gatsby-source-ghost@4.2.3:
+  version "4.2.3"
+  resolved "https://registry.yarnpkg.com/gatsby-source-ghost/-/gatsby-source-ghost-4.2.3.tgz#895970874de32c93a121c8af57ee7aa34d9202b6"
+  integrity sha512-Y3oFwA0lsUQ5xtifNrcOcTBJIBfe87TMjTI2qRCVwh7xxaUrqEvRfsOZZFuI1G+BNMVgCfwEiaDrL+d34izJVQ==
   dependencies:
-    "@tryghost/content-api" "1.4.7"
+    "@tryghost/content-api" "1.4.13"
     bluebird "3.7.2"
-    cheerio "1.0.0-rc.3"
+    cheerio "1.0.0-rc.5"
     gatsby-node-helpers "0.3.0"
-    qs "6.9.4"
+    qs "6.9.6"
 
 gatsby-telemetry@^1.4.1:
   version "1.4.1"
@@ -11622,7 +11629,12 @@ qs@6.7.0:
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.7.0.tgz#41dc1a015e3d581f1621776be31afb2876a9b1bc"
   integrity sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
 
-qs@6.9.4, qs@^6.5.2:
+qs@6.9.6:
+  version "6.9.6"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
+  integrity sha512-TIRk4aqYLNoJUbd+g2lEdz5kLWIuTMRagAXxl78Q0RiVjAOugHmeKNGdd3cwo/ktpf9aL9epCfFqWDEKysUlLQ==
+
+qs@^6.5.2:
   version "6.9.4"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.4.tgz#9090b290d1f91728d3c22e54843ca44aea5ab687"
   integrity sha512-A1kFqHekCTM7cz0udomYUoYNWjBebHm/5wzU/XqrBRBNWectVH0QIiN+NEcZ0Dte5hvzHwbr8+XQmguPhJ6WdQ==
