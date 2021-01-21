@@ -40,7 +40,7 @@
     "core-js": "^3.6.5",
     "fontsource-merriweather": "^4.0.0",
     "fontsource-open-sans": "^4.0.0",
-    "gatsby": "2.31.0",
+    "gatsby": "2.31.1",
     "gatsby-awesome-pagination": "0.3.6",
     "gatsby-cli": "^2.12.113",
     "gatsby-image": "2.10.0",
