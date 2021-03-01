@@ -62,7 +62,7 @@
     "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "preact": "^10.5.7",
-    "prismjs": "^1.21.0",
+    "prismjs": "^1.23.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-helmet": "6.1.0"
