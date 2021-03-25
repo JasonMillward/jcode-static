@@ -31,9 +31,7 @@ try {
 */
 module.exports = {
     flags: {
-        QUERY_ON_DEMAND: false,
-        LAZY_IMAGES: false,
-        FAST_DEV: false,
+        DEV_SSR: true,
         FAST_REFRESH: false,
         PRESERVE_WEBPACK_CACHE: true,
         PRESERVE_FILE_DOWNLOAD_CACHE: true
