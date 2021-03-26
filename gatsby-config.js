@@ -31,8 +31,6 @@ try {
 */
 module.exports = {
     flags: {
-        DEV_SSR: true,
-        FAST_REFRESH: false,
         PRESERVE_WEBPACK_CACHE: true,
         PRESERVE_FILE_DOWNLOAD_CACHE: true
     },
@@ -190,7 +188,7 @@ module.exports = {
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
-        `gatsby-plugin-offline`,
+        // `gatsby-plugin-offline`,
         `gatsby-plugin-remove-fingerprints`,
         `gatsby-plugin-preact`,
     ],
