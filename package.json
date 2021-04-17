@@ -34,7 +34,7 @@
     "eslint-plugin-react": "7.23.2"
   },
   "dependencies": {
-    "@tryghost/helpers": "1.1.42",
+    "@tryghost/helpers": "1.1.43",
     "@tryghost/helpers-gatsby": "1.0.47",
     "cheerio": "1.0.0-rc.6",
     "core-js": "^3.6.5",
