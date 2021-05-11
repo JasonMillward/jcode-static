@@ -1996,27 +1996,20 @@
   dependencies:
     axios "0.21.1"
 
-"@tryghost/helpers-gatsby@1.0.48":
-  version "1.0.48"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-1.0.48.tgz#2f86e1e7b471a110ca31f084d7e80cce8714df5c"
-  integrity sha512-o773TtdTBwXPyYVi7Jumo1CVQiPIMrvQB5g0rgyddCMQ5t3WS3Zoy/iapXC6mgWGS9nv+pH7QgWMfwrHHSmmzg==
+"@tryghost/helpers-gatsby@1.0.49":
+  version "1.0.49"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-1.0.49.tgz#0e1a4430cd21a6075687cac5da9180da55ead3fa"
+  integrity sha512-x7saH4w5DSBGdBTRpnF8J/aZwmdSt5rBIG02MdyoXwc7mPH40nszIg2qU9yPsdtm/mNR+oyEq2wnjlLnCHbSrg==
   dependencies:
     "@reach/router" "^1.2.1"
-    "@tryghost/helpers" "^1.1.43"
-    gatsby-link "^2.0.7"
+    "@tryghost/helpers" "^1.1.44"
+    gatsby-link "^2.9.0"
     prop-types "^15.6.2"
 
-"@tryghost/helpers@1.1.44":
+"@tryghost/helpers@1.1.44", "@tryghost/helpers@^1.1.44":
   version "1.1.44"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.44.tgz#9ac28624109ec4c84d51be369fc514266f5c65d0"
   integrity sha512-oeCTguxn10/1mEqMUkuV+on7vJcO298KH+IEHY4RWCtUBkhsj3VBNqwfVcmuevhWx1h4uBNISP2AxsAIEdsIkw==
-  dependencies:
-    lodash-es "^4.17.11"
-
-"@tryghost/helpers@^1.1.43":
-  version "1.1.43"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.43.tgz#75e7677340e6f956db620cb7d29e8acadab4800d"
-  integrity sha512-Hviu65xnMG1w8j/ibTjqxoJyh4ZkCy2y3IURagZ16FfAiORKPYmGXbQb8ueDsazVnATfrhj1fzc18aTqf9w4lg==
   dependencies:
     lodash-es "^4.17.11"
 
@@ -2124,11 +2117,6 @@
     "@types/events" "*"
     "@types/minimatch" "*"
     "@types/node" "*"
-
-"@types/history@*":
-  version "4.7.8"
-  resolved "https://registry.yarnpkg.com/@types/history/-/history-4.7.8.tgz#49348387983075705fe8f4e02fb67f7daaec4934"
-  integrity sha512-S78QIYirQcUoo6UJZx9CSP0O2ix9IaeAXwQi26Rhr/+mg7qqPy8TzaxHSUut7eGjL8WmLccT7/MXf304WjqHcA==
 
 "@types/http-cache-semantics@*":
   version "4.0.0"
@@ -2243,14 +2231,6 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
-
-"@types/reach__router@^1.3.6":
-  version "1.3.6"
-  resolved "https://registry.yarnpkg.com/@types/reach__router/-/reach__router-1.3.6.tgz#413417ce74caab331c70ce6a03a4c825188e4709"
-  integrity sha512-RHYataCUPQnt+GHoASyRLq6wmZ0n8jWlBW8Lxcwd30NN6vQfbmTeoSDfkgxO0S1lEzArp8OFDsq5KIs7FygjtA==
-  dependencies:
-    "@types/history" "*"
-    "@types/react" "*"
 
 "@types/reach__router@^1.3.7":
   version "1.3.7"
@@ -6787,13 +6767,13 @@ gatsby-legacy-polyfills@^1.4.0:
   dependencies:
     core-js-compat "3.9.0"
 
-gatsby-link@^2.0.7:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.5.0.tgz#89b388520a6d37c991473a6fbbe3e90d9b003622"
-  integrity sha512-vCTvrHaeGv50wfH5qGmHvTxktDDMC0dKa/mIjw+0pmBk+F9V9PJQkAgkAWGqNqGcLBbq5hUstVPynurrvSxjSA==
+gatsby-link@^2.9.0:
+  version "2.11.0"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.11.0.tgz#15e99c89bdde1c99686ce53bda72beb3c9c39455"
+  integrity sha512-AYXxndlSx5mnYv+/PBPdPBRvdv1LeSGE3WO8uYj2ReYDSbhiAlF3KKz30D62ErartXP0deySPtRKx4Dd3nCFYw==
   dependencies:
-    "@babel/runtime" "^7.11.2"
-    "@types/reach__router" "^1.3.6"
+    "@babel/runtime" "^7.12.5"
+    "@types/reach__router" "^1.3.7"
     prop-types "^15.7.2"
 
 gatsby-link@^3.4.0:
