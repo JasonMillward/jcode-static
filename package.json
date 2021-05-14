@@ -35,7 +35,7 @@
   },
   "dependencies": {
     "@tryghost/helpers": "1.1.45",
-    "@tryghost/helpers-gatsby": "1.0.49",
+    "@tryghost/helpers-gatsby": "1.0.50",
     "cheerio": "1.0.0-rc.9",
     "core-js": "^3.6.5",
     "fontsource-merriweather": "^4.0.0",
