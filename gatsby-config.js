@@ -15,6 +15,9 @@ try {
         },
     }
 } finally {
+    console.log(process.env.GHOST_ENV)
+
+
     const { apiUrl, contentApiKey } = process.env.GHOST_ENV === `development` ? ghostConfig.development : ghostConfig.production
 
     if (!apiUrl || !contentApiKey || contentApiKey.match(/<key>/)) {
@@ -31,7 +34,6 @@ try {
 */
 module.exports = {
     flags: {
-        PRESERVE_WEBPACK_CACHE: true,
         PRESERVE_FILE_DOWNLOAD_CACHE: true
     },
     siteMetadata: {
