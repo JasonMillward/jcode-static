@@ -43,7 +43,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-public-gatsby
 
-      - run: yarn install --pure-lockfile
+      - run: yarn install
         name: Install dependencies
 
       - run: yarn build --log-pages
