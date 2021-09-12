@@ -43,9 +43,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-public-gatsby
 
-      - run: npm install -g gatsby @lhci/cli@0.5.x
-
-      - run: yarn install --pure-lockfile
+      - run: yarn install
         name: Install dependencies
 
       - run: yarn build --log-pages
@@ -56,13 +54,3 @@ jobs:
           ENVIRONMENT: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
           GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
           GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
-
-      - name: lhci
-        env:
-          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
-          LHCI_TOKEN: ${{ secrets.LHCI_TOKEN }}
-          LHCI_SERVER_BASE_URL: ${{ secrets.LHCI_URL }}
-          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
-          GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
-        run: |
-          lhci autorun
