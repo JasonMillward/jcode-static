@@ -185,6 +185,12 @@ module.exports = {
                 addUncaughtPages: true,
             },
         },
+        {
+            resolve: "@sentry/gatsby",
+            options: {
+                dsn: "https://a33146952d5d4ca2847a211229b1335b@o998232.ingest.sentry.io/5956811",
+            },
+        },
         `gatsby-plugin-sharp`,
         `gatsby-transformer-sharp`,
         `gatsby-plugin-catch-links`,
