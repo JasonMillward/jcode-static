@@ -196,6 +196,7 @@ module.exports = {
         `gatsby-plugin-catch-links`,
         `gatsby-plugin-react-helmet`,
         `gatsby-plugin-force-trailing-slashes`,
+        'gatsby-plugin-dark-mode',
         // `gatsby-plugin-offline`,
         `gatsby-plugin-remove-fingerprints`,
         `gatsby-plugin-preact`,
