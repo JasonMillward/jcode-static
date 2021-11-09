@@ -2310,25 +2310,20 @@
   dependencies:
     axios "^0.21.1"
 
-"@tryghost/helpers-gatsby@1.0.57":
-  version "1.0.57"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-1.0.57.tgz#3c527e4c678804fb8582f99c964fd952d7be8b55"
+"@tryghost/helpers-gatsby@1.0.58":
+  version "1.0.58"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-1.0.58.tgz#6c4afd3976a1aab8ebace5d810238dd81022372c"
+  integrity sha512-jLDCes8crB+Ttndin0OZMxht9Ulx/OYAB8tysgvph99PsObkaC2vm3s95mzonHyfGHgEUWBimYRam3VTbDasLg==
   dependencies:
     "@reach/router" "^1.2.1"
-    "@tryghost/helpers" "^1.1.52"
+    "@tryghost/helpers" "^1.1.53"
     gatsby-link "^2.9.0"
     prop-types "^15.6.2"
 
-"@tryghost/helpers@1.1.53":
+"@tryghost/helpers@1.1.53", "@tryghost/helpers@^1.1.53":
   version "1.1.53"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.53.tgz#f1505aa1a3eccd859f4aa04891cf151c2ae34ba4"
   integrity sha512-FoC8M5gNwGr/jQh1SzXr30XpvD2eyYTmnG+hil1KGgGoW9dHkGo0LWsy5j/UOs45cgSJlZVspY5DTPD7rcNVVg==
-  dependencies:
-    lodash-es "^4.17.11"
-
-"@tryghost/helpers@^1.1.52":
-  version "1.1.52"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.52.tgz#e30bd367ea62d1b27e59abfa8e8ed8c3e072b74e"
   dependencies:
     lodash-es "^4.17.11"
 
