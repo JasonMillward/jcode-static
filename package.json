@@ -36,7 +36,7 @@
   "dependencies": {
     "@netlify/plugin-gatsby": "^2.0.0-beta",
     "@sentry/gatsby": "^6.12.0",
-    "@tryghost/helpers": "1.1.57",
+    "@tryghost/helpers": "1.1.58",
     "@tryghost/helpers-gatsby": "1.0.64",
     "caniuse-lite": "^1.0.30001255",
     "cheerio": "1.0.0-rc.10",
