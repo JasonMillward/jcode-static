@@ -58,7 +58,7 @@
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "5.16.0",
     "gatsby-plugin-remove-fingerprints": "^0.0.2",
-    "gatsby-plugin-sharp": "4.16.0",
+    "gatsby-plugin-sharp": "4.16.1",
     "gatsby-source-filesystem": "4.16.0",
     "gatsby-source-ghost": "4.2.4",
     "gatsby-transformer-sharp": "4.16.0",
