@@ -34,7 +34,7 @@
     "eslint-plugin-react": "7.31.8"
   },
   "dependencies": {
-    "@netlify/plugin-gatsby": "^3.0.0",
+    "@netlify/plugin-gatsby": "^3.4.0",
     "@sentry/gatsby": "^7.0.0",
     "@tryghost/helpers": "1.1.74",
     "@tryghost/helpers-gatsby": "2.0.4",
@@ -45,7 +45,7 @@
     "fontsource-open-sans": "^4.0.0",
     "gatsby": "4.24.3",
     "gatsby-awesome-pagination": "0.3.8",
-    "gatsby-cli": "^4.0.0",
+    "gatsby-cli": "^4.24.0",
     "gatsby-image": "3.11.0",
     "gatsby-plugin-advanced-sitemap": "2.1.0",
     "gatsby-plugin-catch-links": "4.24.0",
@@ -67,7 +67,7 @@
     "moment": "^2.29.4",
     "preact": "^10.5.7",
     "preact-render-to-string": "^5.1.16",
-    "prismjs": "^1.25.0",
+    "prismjs": "^1.29.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0",
