@@ -6,18 +6,18 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: 12
+          node-version: 14
 
       - name: Yarn cache directory
         id: yarn-cache-dir
         run: echo "::set-output name=dir::$(yarn cache dir)"
 
       - name: Yarn cache
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: yarn-cache
         with:
           path: ${{ steps.yarn-cache-dir.outputs.dir }}
@@ -26,7 +26,7 @@ jobs:
             ${{ runner.os }}-yarn-
 
       - name: Gatsby Cache Folder
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: gatsby-cache-folder
         with:
           path: .cache
@@ -35,7 +35,7 @@ jobs:
             ${{ runner.os }}-cache-gatsby
 
       - name: Gatsby Public Folder
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: gatsby-public-folder
         with:
           path: public/
@@ -46,11 +46,11 @@ jobs:
       - run: yarn install
         name: Install dependencies
 
-      - run: yarn build --log-pages
-        name: Build
-        env:
-          GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
-          NODE_ENV: production
-          ENVIRONMENT: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
-          GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
-          GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
+      # - run: yarn build --log-pages
+      #   name: Build
+      #   env:
+      #     GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES: true
+      #     NODE_ENV: production
+      #     ENVIRONMENT: ${{ contains(github.ref, 'master') && 'production' || 'staging'}}
+      #     GHOST_API_URL: ${{ secrets.GHOST_API_URL }}
+      #     GHOST_CONTENT_API_KEY: ${{ secrets.GHOST_CONTENT_API_KEY }}
