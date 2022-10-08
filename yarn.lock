@@ -2057,7 +2057,7 @@
   dependencies:
     jimp-compact "^0.16.1-2"
 
-"@gatsbyjs/reach-router@^1.3.9":
+"@gatsbyjs/reach-router@1.3.9", "@gatsbyjs/reach-router@^1.3.9":
   version "1.3.9"
   resolved "https://registry.yarnpkg.com/@gatsbyjs/reach-router/-/reach-router-1.3.9.tgz#305c3c4c5041f27e53fc33e344a08ee2c4b985af"
   integrity sha512-/354IaUSM54xb7K/TxpLBJB94iEAJ3P82JD38T8bLnIDWF+uw8+W/82DKnQ7y24FJcKxtVmG43aiDLG88KSuYQ==
@@ -2883,15 +2883,6 @@
     "@prefresh/core" "^1.3.1"
     "@prefresh/utils" "^1.1.0"
 
-"@reach/router@^1.2.1":
-  version "1.3.4"
-  resolved "https://registry.yarnpkg.com/@reach/router/-/router-1.3.4.tgz#d2574b19370a70c80480ed91f3da840136d10f8c"
-  dependencies:
-    create-react-context "0.3.0"
-    invariant "^2.2.3"
-    prop-types "^15.6.1"
-    react-lifecycles-compat "^3.0.4"
-
 "@sentry/browser@7.14.2":
   version "7.14.2"
   resolved "https://registry.yarnpkg.com/@sentry/browser/-/browser-7.14.2.tgz#668359603e3f32e6debf6a139652f5233b4d3e58"
@@ -3057,27 +3048,20 @@
   dependencies:
     axios "^0.21.1"
 
-"@tryghost/helpers-gatsby@1.0.77":
-  version "1.0.77"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-1.0.77.tgz#e437b53025d05efcdb85cba7e6d7561961c2cbf2"
-  integrity sha512-GHGdCQahgmbYpc0AlKV7HDgW79L1eud0W3tItDeD/+SfaPAp6hrjjnFdESW3EA869T8zkTVjndv2hokQCIgQsw==
+"@tryghost/helpers-gatsby@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-2.0.4.tgz#553f8ffca12403ae5dcbf7371f9b8120148513e1"
+  integrity sha512-ly9tatQ9hBBtSgZPlKu7QSTpOur0q2tfeVE5A9BUp00Vr1i7QMMztu93fQ/QTPA1rNaB+r8egKM3gzB+Gp8zLQ==
   dependencies:
-    "@reach/router" "^1.2.1"
-    "@tryghost/helpers" "^1.1.70"
-    gatsby-link "^2.9.0"
+    "@gatsbyjs/reach-router" "1.3.9"
+    "@tryghost/helpers" "^1.1.74"
+    gatsby-link "4.17.0"
     prop-types "^15.6.2"
 
-"@tryghost/helpers@1.1.74":
+"@tryghost/helpers@1.1.74", "@tryghost/helpers@^1.1.74":
   version "1.1.74"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.74.tgz#1910bad5bdb29c9d17c4917b6761dc74e0d0c10a"
   integrity sha512-fD3gdDgKKSvnX5j/1HLvZdwXAfWfDFHz6YpHQSWvarwnNeok1BfdDoi0qhRd+3VM0o4QJK13XqQtPPo3hSv//g==
-  dependencies:
-    lodash-es "^4.17.11"
-
-"@tryghost/helpers@^1.1.70":
-  version "1.1.70"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.70.tgz#25c79e3da3720289df06612c391d73e7bb1f04c9"
-  integrity sha512-/R1DLsUhprQjB1YHtufxk447QauWWgudNt3gnVPsEP4I6yB2ACK2uqrigOlWRzo3R8/BytpwmAV4N4vhTOia+Q==
   dependencies:
     lodash-es "^4.17.11"
 
@@ -3305,12 +3289,6 @@
   version "1.3.10"
   resolved "https://registry.yarnpkg.com/@types/reach__router/-/reach__router-1.3.10.tgz#141d500213a452d9d9d71d5ad96c4104094f55a3"
   integrity sha512-iHAFGaVOrWi00/q7oBybggGsz5TOmwOW4M1H9sT7i9lly4qFC8XOgsdf6jUsoaOz2sknFHALEtZqCoDbokdJ2Q==
-  dependencies:
-    "@types/react" "*"
-
-"@types/reach__router@^1.3.7":
-  version "1.3.7"
-  resolved "https://registry.yarnpkg.com/@types/reach__router/-/reach__router-1.3.7.tgz#de8ab374259ae7f7499fc1373b9697a5f3cd6428"
   dependencies:
     "@types/react" "*"
 
@@ -5288,13 +5266,6 @@ create-gatsby@^2.24.0:
   integrity sha512-1ZN9cIGlPVPoyKHrl7n+iLf0SbIu/wdWBpujV/UeoIPJpEwEwUFe5fJPUIGTJkyHC97G6ArM+5mKt3fTZiCfwQ==
   dependencies:
     "@babel/runtime" "^7.15.4"
-
-create-react-context@0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/create-react-context/-/create-react-context-0.3.0.tgz#546dede9dc422def0d3fc2fe03afe0bc0f4f7d8c"
-  dependencies:
-    gud "^1.0.0"
-    warning "^4.0.3"
 
 cross-fetch@^3.1.5:
   version "3.1.5"
@@ -7745,13 +7716,15 @@ gatsby-legacy-polyfills@^2.24.0:
     "@babel/runtime" "^7.15.4"
     core-js-compat "3.9.0"
 
-gatsby-link@^2.9.0:
-  version "2.11.0"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.11.0.tgz#15e99c89bdde1c99686ce53bda72beb3c9c39455"
+gatsby-link@4.17.0:
+  version "4.17.0"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-4.17.0.tgz#cfccc7c8d702da9592a4c6172de03857af6e39fb"
+  integrity sha512-hDh+9OFMHNQ/5YdDdTcpSMB8xAYSP4OMkRuwmgPKH1jtOuov3pzwFAo19RR34CsOqzKd3LSQbCjIovOksjlAeA==
   dependencies:
-    "@babel/runtime" "^7.12.5"
-    "@types/reach__router" "^1.3.7"
-    prop-types "^15.7.2"
+    "@babel/runtime" "^7.15.4"
+    "@types/reach__router" "^1.3.10"
+    gatsby-page-utils "^2.17.0"
+    prop-types "^15.8.1"
 
 gatsby-link@^4.24.0:
   version "4.24.0"
@@ -7770,7 +7743,7 @@ gatsby-node-helpers@0.3.0:
     lodash "^4.17.4"
     p-is-promise "^1.1.0"
 
-gatsby-page-utils@^2.24.0:
+gatsby-page-utils@^2.17.0, gatsby-page-utils@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/gatsby-page-utils/-/gatsby-page-utils-2.24.0.tgz#66ae38761c4295cc2d79164c7b03528bbb299edd"
   integrity sha512-4AEjt991hzZJw6ydyGmpwlnevNcjpoN4tTbAit+M7XCE0OpCXCZt4OxB8DdPbKdqA0E3whCTFiwefrN4axjBOg==
@@ -8746,10 +8719,6 @@ graphql@^15.7.2:
   version "15.7.2"
   resolved "https://registry.yarnpkg.com/graphql/-/graphql-15.7.2.tgz#85ab0eeb83722977151b3feb4d631b5f2ab287ef"
   integrity sha512-AnnKk7hFQFmU/2I9YSQf3xw44ctnSFCfp3zE0N6W174gqe9fWG/2rKaKxROK7CcI3XtERpjEKFqts8o319Kf7A==
-
-gud@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/gud/-/gud-1.0.0.tgz#a489581b17e6a70beca9abe3ae57de7a499852c0"
 
 gzip-size@^6.0.0:
   version "6.0.0"
@@ -12524,7 +12493,6 @@ react-helmet@6.1.0:
     react-fast-compare "^3.1.1"
     react-side-effect "^2.1.0"
 
-
 react-is@^16.12.0, react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
@@ -14667,12 +14635,6 @@ vfile@^4.0.0:
     replace-ext "1.0.0"
     unist-util-stringify-position "^2.0.0"
     vfile-message "^2.0.0"
-
-warning@^4.0.3:
-  version "4.0.3"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-4.0.3.tgz#16e9e077eb8a86d6af7d64aa1e05fd85b4678ca3"
-  dependencies:
-    loose-envify "^1.0.0"
 
 watchpack@^2.2.0:
   version "2.2.0"
