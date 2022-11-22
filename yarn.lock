@@ -2139,10 +2139,10 @@
   resolved "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz"
   integrity sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==
 
-"@tryghost/content-api@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.npmjs.org/@tryghost/content-api/-/content-api-1.10.0.tgz"
-  integrity sha512-tmfXmB5w+uBdOx5uf46fhkubCgyVoK/LGTWO219IGHDCmONYVdQ0sEBCkWn6X9VzpxxbkrjT/JPjf6wCpkHRKA==
+"@tryghost/content-api@1.11.4":
+  version "1.11.4"
+  resolved "https://registry.npmjs.org/@tryghost/content-api/-/content-api-1.11.4.tgz"
+  integrity sha512-1ShIj8i37rR/9gaenRiaGvPNAU3jAuvViD64mmVxE1cedXJjpqbaOLM8lFWaVuGUafDQrfo5tv57FN6ac51QeQ==
   dependencies:
     axios "^0.27.0"
 
@@ -6664,15 +6664,15 @@ gatsby-source-filesystem@4.24.0:
     valid-url "^1.0.9"
     xstate "4.32.1"
 
-gatsby-source-ghost@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npmjs.org/gatsby-source-ghost/-/gatsby-source-ghost-5.0.0.tgz"
-  integrity sha512-wyq7o7gGC8n6/z5daf/3sqH3NJhvP569Zr/Dd6E5I8duioR5smeLpibyY4RI3fH+y66caja9QnZ7v+gZAiR0Og==
+gatsby-source-ghost@5.0.1:
+  version "5.0.1"
+  resolved "https://registry.npmjs.org/gatsby-source-ghost/-/gatsby-source-ghost-5.0.1.tgz"
+  integrity sha512-RjcgZvX9GYTLLcVEp/OWeO1g+jFUj66rxdtxc/suhqs8G3KnVhVobBnUiNIU17Kqhy1PV3pu4FddD20CEHggaQ==
   dependencies:
-    "@tryghost/content-api" "1.10.0"
+    "@tryghost/content-api" "1.11.4"
     cheerio "1.0.0-rc.11"
     gatsby-node-helpers "0.3.0"
-    qs "6.10.3"
+    qs "6.11.0"
 
 gatsby-telemetry@^3.24.0:
   version "3.24.0"
@@ -10681,7 +10681,7 @@ qs@6.10.3:
   dependencies:
     side-channel "^1.0.4"
 
-qs@^6.5.2:
+qs@6.11.0, qs@^6.5.2:
   version "6.11.0"
   resolved "https://registry.npmjs.org/qs/-/qs-6.11.0.tgz"
   integrity sha512-MvjoMCJwEarSbUYk5O+nmoSzSutSsTwF85zcHPQ9OrlFoZOYIjaqBAJIqIXjptyD5vThxGq52Xu/MaJzRkIk4Q==

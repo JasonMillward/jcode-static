@@ -60,7 +60,7 @@
     "gatsby-plugin-remove-fingerprints": "^0.0.2",
     "gatsby-plugin-sharp": "4.24.0",
     "gatsby-source-filesystem": "4.24.0",
-    "gatsby-source-ghost": "5.0.0",
+    "gatsby-source-ghost": "5.0.1",
     "gatsby-transformer-sharp": "4.24.0",
     "lazysizes": "^5.2.2",
     "lodash": "^4.17.19",
