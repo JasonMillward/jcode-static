@@ -2124,10 +2124,10 @@
   resolved "https://registry.npmjs.org/@tokenizer/token/-/token-0.3.0.tgz"
   integrity sha512-OvjF+z51L3ov0OyAU0duzsYuvO01PH7x4t6DJx+guahgTnBHkhJdG7soQeTSFLWN3efnHyibZ4Z8l2EuWwJN3A==
 
-"@tryghost/content-api@1.11.4":
-  version "1.11.4"
-  resolved "https://registry.npmjs.org/@tryghost/content-api/-/content-api-1.11.4.tgz"
-  integrity sha512-1ShIj8i37rR/9gaenRiaGvPNAU3jAuvViD64mmVxE1cedXJjpqbaOLM8lFWaVuGUafDQrfo5tv57FN6ac51QeQ==
+"@tryghost/content-api@1.11.5":
+  version "1.11.5"
+  resolved "https://registry.npmjs.org/@tryghost/content-api/-/content-api-1.11.5.tgz"
+  integrity sha512-dDU3EBgi8fpSZqnEOunYra/W/yABGlJng6f6i99ZLHir/y/KbShA+zA5/R19Y7Z109ocB8R4VWHk44GjFSTeBA==
   dependencies:
     axios "^0.27.0"
 
@@ -3692,20 +3692,6 @@ cheerio-select@^2.1.0:
     domelementtype "^2.3.0"
     domhandler "^5.0.3"
     domutils "^3.0.1"
-
-cheerio@1.0.0-rc.11:
-  version "1.0.0-rc.11"
-  resolved "https://registry.npmjs.org/cheerio/-/cheerio-1.0.0-rc.11.tgz"
-  integrity sha512-bQwNaDIBKID5ts/DsdhxrjqFXYfLw4ste+wMKqWA8DyKcS4qwsPP4Bk8ZNaTJjvpiX/qW3BT4sU7d6Bh5i+dag==
-  dependencies:
-    cheerio-select "^2.1.0"
-    dom-serializer "^2.0.0"
-    domhandler "^5.0.3"
-    domutils "^3.0.1"
-    htmlparser2 "^8.0.1"
-    parse5 "^7.0.0"
-    parse5-htmlparser2-tree-adapter "^7.0.0"
-    tslib "^2.4.0"
 
 cheerio@1.0.0-rc.12, cheerio@^1.0.0-rc.10:
   version "1.0.0-rc.12"
@@ -6643,13 +6629,13 @@ gatsby-source-filesystem@4.25.0:
     valid-url "^1.0.9"
     xstate "4.32.1"
 
-gatsby-source-ghost@5.0.1:
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/gatsby-source-ghost/-/gatsby-source-ghost-5.0.1.tgz"
-  integrity sha512-RjcgZvX9GYTLLcVEp/OWeO1g+jFUj66rxdtxc/suhqs8G3KnVhVobBnUiNIU17Kqhy1PV3pu4FddD20CEHggaQ==
+gatsby-source-ghost@5.0.2:
+  version "5.0.2"
+  resolved "https://registry.npmjs.org/gatsby-source-ghost/-/gatsby-source-ghost-5.0.2.tgz"
+  integrity sha512-xizrhlE4vDS0Z2qzSv0NUFOwUo/YmdDJX8iiRzLyatxFowmX2NCBan64Nsa1eR2QoZU0xnuL57paO0p4SlE6Zg==
   dependencies:
-    "@tryghost/content-api" "1.11.4"
-    cheerio "1.0.0-rc.11"
+    "@tryghost/content-api" "1.11.5"
+    cheerio "1.0.0-rc.12"
     gatsby-node-helpers "0.3.0"
     qs "6.11.0"
 
