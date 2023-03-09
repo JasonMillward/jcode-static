@@ -2151,10 +2151,10 @@
     gatsby-link "4.17.0"
     prop-types "^15.6.2"
 
-"@tryghost/helpers@1.1.75", "@tryghost/helpers@^1.1.75":
-  version "1.1.75"
-  resolved "https://registry.npmjs.org/@tryghost/helpers/-/helpers-1.1.75.tgz"
-  integrity sha512-iUp80FuxSWR2s2/fus7e88u6NSaab5aVxHFc8pyI/yrL9UrXtMgiIxIumMULo7RRE1OjKhP5qsFla1n0b+Oy8w==
+"@tryghost/helpers@1.1.76", "@tryghost/helpers@^1.1.75":
+  version "1.1.76"
+  resolved "https://registry.npmjs.org/@tryghost/helpers/-/helpers-1.1.76.tgz"
+  integrity sha512-JZA+oRTdgfYlIGFWK2EUbobnZTxSCdP+MR+ajqVlInyh+OrhD/L2jiAgYs5za31zmzYx1+4tGMSNKWpc8Jmteg==
   dependencies:
     lodash-es "^4.17.11"
 
