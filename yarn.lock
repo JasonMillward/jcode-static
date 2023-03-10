@@ -2141,17 +2141,17 @@
   dependencies:
     axios "^0.27.0"
 
-"@tryghost/helpers-gatsby@2.0.5":
-  version "2.0.5"
-  resolved "https://registry.npmjs.org/@tryghost/helpers-gatsby/-/helpers-gatsby-2.0.5.tgz"
-  integrity sha512-x+Meqv4KdkoQzCG7+6eOs6W8o07+FloR90W+Obr9jBaagLZt4F//DMFne11x4I9Aql7u3tc9/Wskw57JYROwaQ==
+"@tryghost/helpers-gatsby@2.0.6":
+  version "2.0.6"
+  resolved "https://registry.npmjs.org/@tryghost/helpers-gatsby/-/helpers-gatsby-2.0.6.tgz"
+  integrity sha512-C0vmXbOTPjFBvgdOuS7cJkO7+OOlitvLbgLBk7D5M5fLZbjR4AgVzk7QNENEvdcilPCYrVICWpthJSTMiOf7XA==
   dependencies:
     "@gatsbyjs/reach-router" "1.3.9"
-    "@tryghost/helpers" "^1.1.75"
+    "@tryghost/helpers" "^1.1.76"
     gatsby-link "4.17.0"
     prop-types "^15.6.2"
 
-"@tryghost/helpers@1.1.76", "@tryghost/helpers@^1.1.75":
+"@tryghost/helpers@1.1.76", "@tryghost/helpers@^1.1.76":
   version "1.1.76"
   resolved "https://registry.npmjs.org/@tryghost/helpers/-/helpers-1.1.76.tgz"
   integrity sha512-JZA+oRTdgfYlIGFWK2EUbobnZTxSCdP+MR+ajqVlInyh+OrhD/L2jiAgYs5za31zmzYx1+4tGMSNKWpc8Jmteg==
