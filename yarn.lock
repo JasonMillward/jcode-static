@@ -8796,9 +8796,9 @@ latest-version@5.1.0, latest-version@^5.1.0:
   dependencies:
     package-json "^6.3.0"
 
-lazysizes@^5.3.2:
+lazysizes@^5.2.2:
   version "5.3.2"
-  resolved "https://registry.yarnpkg.com/lazysizes/-/lazysizes-5.3.2.tgz#27f974c26f5fcc33e7db765c0f4930488c8a2984"
+  resolved "https://registry.npmjs.org/lazysizes/-/lazysizes-5.3.2.tgz"
   integrity sha512-22UzWP+Vedi/sMeOr8O7FWimRVtiNJV2HCa+V8+peZOw6QbswN9k58VUhd7i6iK5bw5QkYrF01LJbeJe0PV8jg==
 
 levn@^0.4.1:
@@ -10895,10 +10895,10 @@ preact-render-to-string@^5.1.16:
   dependencies:
     pretty-format "^3.8.0"
 
-preact@^10.5.7:
-  version "10.5.7"
-  resolved "https://registry.npmjs.org/preact/-/preact-10.5.7.tgz"
-  integrity sha512-4oEpz75t/0UNcwmcsjk+BIcDdk68oao+7kxcpc1hQPNs2Oo3ZL9xFz8UBf350mxk/VEdD41L5b4l2dE3Ug3RYg==
+preact@^10.13.1:
+  version "10.13.1"
+  resolved "https://registry.yarnpkg.com/preact/-/preact-10.13.1.tgz#d220bd8771b8fa197680d4917f3cefc5eed88720"
+  integrity sha512-KyoXVDU5OqTpG9LXlB3+y639JAGzl8JSBXLn1J9HTSB3gbKcuInga7bZnXLlxmK94ntTs1EFeZp0lrja2AuBYQ==
 
 prebuild-install@^7.1.1:
   version "7.1.1"
