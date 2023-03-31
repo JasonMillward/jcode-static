@@ -2310,7 +2310,7 @@
     "@sentry/utils" "7.46.0"
     tslib "^1.9.3"
 
-"@sentry/gatsby@^7.46.0":
+"@sentry/gatsby@^7.0.0":
   version "7.46.0"
   resolved "https://registry.yarnpkg.com/@sentry/gatsby/-/gatsby-7.46.0.tgz#09f495ca1c8b6a9fbbb2d37ac4fad754a42d4cc8"
   integrity sha512-Ek8PN8v3zdeBQxeftzHXbZAAj4YcFk0PjxiTQA/pACHYG8uI5XuPgNjVNS2u+7kZd3gDYl4rTIypv+ztUNLMYg==
@@ -12853,9 +12853,9 @@ typedarray@^0.0.6:
   integrity sha512-/aCDEGatGvZ2BIk+HmLf4ifCJFwvKFNb9/JeZPMulfgFracn9QFcAf5GO8B/mweUjSoblS5In0cWhqpfs/5PQA==
 
 ua-parser-js@^0.7.30:
-  version "0.7.31"
-  resolved "https://registry.npmjs.org/ua-parser-js/-/ua-parser-js-0.7.31.tgz"
-  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+  version "0.7.34"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.34.tgz#afb439e2e3e394bdc90080acb661a39c685b67d7"
+  integrity sha512-cJMeh/eOILyGu0ejgTKB95yKT3zOenSe9UGE3vj6WfiOwgGYnmATUsnDixMFvdU+rNMvWih83hrUP8VwhF9yXQ==
 
 ufo@^0.8.5, ufo@^0.8.6:
   version "0.8.6"
