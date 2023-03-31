@@ -3909,7 +3909,7 @@ caniuse-api@^3.0.0:
     lodash.memoize "^4.1.2"
     lodash.uniq "^4.5.0"
 
-caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001407, caniuse-lite@^1.0.30001473:
+caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001255, caniuse-lite@^1.0.30001400, caniuse-lite@^1.0.30001407:
   version "1.0.30001473"
   resolved "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001473.tgz"
   integrity sha512-ewDad7+D2vlyy+E4UJuVfiBsU69IL+8oVmTuZnH5Q6CIUbxNfI50uVpRHbUPDD6SUaN2o0Lh4DhTrvLG/Tn1yg==
@@ -7020,10 +7020,10 @@ gatsby-worker@^1.25.0:
     "@babel/core" "^7.15.5"
     "@babel/runtime" "^7.15.4"
 
-gatsby@4.25.5:
-  version "4.25.5"
-  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.25.5.tgz"
-  integrity sha512-erPH6TcKFkhV/nrk3kIpDEA1XwktTXKo+wzPBIgzEF4SNrn0WkGPkxHEI/2B4RazkIBtxTfkLCKhRDCsmh5/mw==
+gatsby@4.25.6:
+  version "4.25.6"
+  resolved "https://registry.npmjs.org/gatsby/-/gatsby-4.25.6.tgz"
+  integrity sha512-6kkUBWtGgb+SMd36ZdHpFJ+f/sq62ngRMVkM0Tna5AKcGnzLZgnA1h9/OHlU3bSz9TGNsyRcU7yFSlwxmStQgw==
   dependencies:
     "@babel/code-frame" "^7.14.0"
     "@babel/core" "^7.15.5"
