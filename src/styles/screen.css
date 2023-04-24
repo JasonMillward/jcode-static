@@ -2550,14 +2550,6 @@ li.fancy-tag.tag-android:before {
 /*}*/
 
 
-.commento-root .commento-button {
-    margin-top: 10px;
-}
-
-.commento-footer{
-    display:none !important;
-}
-
 pre[class*=language-] {
     margin: 1.75em 0;
 }
