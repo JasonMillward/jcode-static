@@ -9,11 +9,8 @@
     "type": "git",
     "url": "git+https://github.com/tryghost/gatsby-starter-ghost.git"
   },
-  "resolutions": {
-    "sharp": "0.32.0"
-  },
   "engines": {
-    "node": ">= 14.15.0"
+    "node": ">= 18.16.0"
   },
   "keywords": [
     "gatsby",
