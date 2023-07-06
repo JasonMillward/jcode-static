@@ -34,7 +34,7 @@
     "@netlify/plugin-gatsby": "^3.4.0",
     "@sentry/gatsby": "^7.0.0",
     "@tryghost/helpers": "1.1.83",
-    "@tryghost/helpers-gatsby": "2.0.13",
+    "@tryghost/helpers-gatsby": "2.0.14",
     "caniuse-lite": "^1.0.30001255",
     "cheerio": "1.0.0-rc.12",
     "core-js": "^3.6.5",
