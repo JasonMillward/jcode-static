@@ -28,7 +28,7 @@
     "@babel/eslint-parser": "7.22.9",
     "eslint": "8.46.0",
     "eslint-plugin-ghost": "3.3.0",
-    "eslint-plugin-react": "7.33.0"
+    "eslint-plugin-react": "7.33.1"
   },
   "dependencies": {
     "@netlify/plugin-gatsby": "^3.4.0",
