@@ -1673,10 +1673,10 @@ babel-plugin-polyfill-regenerator@^0.4.1:
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.3"
 
-babel-preset-gatsby-package@3.12.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-3.12.0.tgz#b47d1888de8cd3d6590ad9e1a89e162bccfeeaa5"
-  integrity sha512-/7V42lWZVEDa0pdbUCJTJatEXhC2AS91T+3Dr3I3zNCzfyRHio/ctwHjz1FWj4VWwSRspQliiQ5t1bEtbpG24w==
+babel-preset-gatsby-package@3.13.0:
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/babel-preset-gatsby-package/-/babel-preset-gatsby-package-3.13.0.tgz#fc89e9ab8e409fbbb435f490f6a1255d0748f21b"
+  integrity sha512-lHeXoVO/kko5CwIuwG31HgXDjSasPC9/kpaBYLeL1eTDhVbxXFjfBazHgalr0Lb9/2/qwNR2n3M43GYYqABkBQ==
   dependencies:
     "@babel/plugin-proposal-nullish-coalescing-operator" "^7.18.6"
     "@babel/plugin-proposal-optional-chaining" "^7.20.7"
