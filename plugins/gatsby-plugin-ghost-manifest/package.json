@@ -4,13 +4,13 @@
     "version": "0.0.1",
     "author": "Ghost Foundation",
     "dependencies": {
-        "@babel/runtime": "7.24.4",
+        "@babel/runtime": "7.24.5",
         "bluebird": "3.7.2",
         "sharp": "0.33.3"
     },
     "devDependencies": {
-        "@babel/cli": "7.24.1",
-        "@babel/core": "7.24.4",
+        "@babel/cli": "7.24.5",
+        "@babel/core": "7.24.5",
         "babel-preset-gatsby-package": "3.13.1",
         "cross-env": "7.0.3"
     },
