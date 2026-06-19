@@ -3245,7 +3245,14 @@
     gatsby-link "5.16.0"
     prop-types "15.8.1"
 
-"@tryghost/helpers@1.1.102", "@tryghost/helpers@^1.1.102":
+"@tryghost/helpers@1.1.106":
+  version "1.1.106"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.106.tgz#831236a9f469e51e2d7dd4f54f330337cb66700b"
+  integrity sha512-Yjrb/VLvRqgtMsiKXvuSRoVvAm2HJ6SJakdo25va4sU9sA7yXBSWWHkukE8q27Ty9R2fE5jEEWziIhrZy+Tkog==
+  dependencies:
+    lodash-es "4.18.1"
+
+"@tryghost/helpers@^1.1.102":
   version "1.1.102"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.102.tgz#b5a0ff53cb041f91dba20182b31ac4635be435e1"
   integrity sha512-jrkEDpJwLbq+hoj0yShUR8EfUYbL21j8Xfrjrt7Xf4s3DJ2tf7J5s8SNoVqzZIByk/0mw5WZ6yhHdmRCXSB5uw==
@@ -10837,6 +10844,11 @@ lodash-es@4.17.23:
   version "4.17.23"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.23.tgz#58c4360fd1b5d33afc6c0bbd3d1149349b1138e0"
   integrity sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==
+
+lodash-es@4.18.1:
+  version "4.18.1"
+  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.18.1.tgz#b962eeb80d9d983a900bf342961fb7418ca10b1d"
+  integrity sha512-J8xewKD/Gk22OZbhpOVSwcs60zhd95ESDwezOFuA3/099925PdHJ7OFHNTGtajL3AlZkykD32HykiMo+BIBI8A==
 
 lodash._reinterpolate@^3.0.0:
   version "3.0.0"
