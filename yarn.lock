@@ -3235,29 +3235,22 @@
   dependencies:
     axios "^0.27.0"
 
-"@tryghost/helpers-gatsby@2.1.1":
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-2.1.1.tgz#3a213df26c84faf1aa704060a6b22cc4a93d0028"
-  integrity sha512-raH/sSvFbaEgAlGZ6QDzZEGaBw0LJsIG/IExqqB4oU3mM8hatSYDTZtzXxhbB5P86oVp0s1qJKZaPHHzQ7U1Aw==
+"@tryghost/helpers-gatsby@2.1.5":
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@tryghost/helpers-gatsby/-/helpers-gatsby-2.1.5.tgz#2adbd471b318ce26bded888f9baf48b6602438e9"
+  integrity sha512-E6kFXb5sb23m3u/BTxBocS/INNDwv65FoqVWlEXcz8VIK7UOn/A5P1rnqjI4sN6mDSzHVnJ3g+MOP4GR9Ht4Ww==
   dependencies:
     "@gatsbyjs/reach-router" "2.0.1"
-    "@tryghost/helpers" "^1.1.102"
+    "@tryghost/helpers" "^1.1.106"
     gatsby-link "5.16.0"
     prop-types "15.8.1"
 
-"@tryghost/helpers@1.1.106":
+"@tryghost/helpers@1.1.106", "@tryghost/helpers@^1.1.106":
   version "1.1.106"
   resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.106.tgz#831236a9f469e51e2d7dd4f54f330337cb66700b"
   integrity sha512-Yjrb/VLvRqgtMsiKXvuSRoVvAm2HJ6SJakdo25va4sU9sA7yXBSWWHkukE8q27Ty9R2fE5jEEWziIhrZy+Tkog==
   dependencies:
     lodash-es "4.18.1"
-
-"@tryghost/helpers@^1.1.102":
-  version "1.1.102"
-  resolved "https://registry.yarnpkg.com/@tryghost/helpers/-/helpers-1.1.102.tgz#b5a0ff53cb041f91dba20182b31ac4635be435e1"
-  integrity sha512-jrkEDpJwLbq+hoj0yShUR8EfUYbL21j8Xfrjrt7Xf4s3DJ2tf7J5s8SNoVqzZIByk/0mw5WZ6yhHdmRCXSB5uw==
-  dependencies:
-    lodash-es "4.17.23"
 
 "@trysound/sax@0.2.0":
   version "0.2.0"
@@ -10839,11 +10832,6 @@ lockfile@^1.0:
   integrity sha512-cvbTwETRfsFh4nHsL1eGWapU1XFi5Ot9E85sWAwia7Y7EgB7vfqcZhTKZ+l7hCGxSPoushMv5GKhT5PdLv03WA==
   dependencies:
     signal-exit "^3.0.2"
-
-lodash-es@4.17.23:
-  version "4.17.23"
-  resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.23.tgz#58c4360fd1b5d33afc6c0bbd3d1149349b1138e0"
-  integrity sha512-kVI48u3PZr38HdYz98UmfPnXl2DXrpdctLrFLCd3kOx1xUkOmpFPx7gCWWM5MPkL/fD8zb+Ph0QzjGFs4+hHWg==
 
 lodash-es@4.18.1:
   version "4.18.1"
